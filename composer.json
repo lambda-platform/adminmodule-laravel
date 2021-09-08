@@ -1,0 +1,26 @@
+{
+    "name": "lambda-platform/puzzle",
+    "description": "Puzzle Visual Builder",
+    "type": "module",
+    "license": "MIT",
+    "authors": [{
+        "name": "n0m4dz",
+        "email": "tseegii.it@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lambda\\Puzzle\\PuzzleServiceProvider"
+            ],
+            "aliases": {
+                "Agent": "Lambda\\Puzzle\\Puzzle"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Lambda\\Puzzle\\": "src"
+        }
+    }
+}
